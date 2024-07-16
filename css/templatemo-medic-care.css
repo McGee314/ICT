@@ -202,6 +202,7 @@ strong {
 
 .animated-item {
   color: var(--primary-color);
+  font-size: var(--h3-font-size);
 }
 
 .animated-item {
