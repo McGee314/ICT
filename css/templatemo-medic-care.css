@@ -189,6 +189,10 @@ strong {
 /*---------------------------------------
   ANIMATED TEXT              
 -----------------------------------------*/
+:root {
+  --primary-color: #1a2ab4; /* Replace with your desired primary color */
+}
+
 .animated {
   position: relative;
 }
@@ -198,11 +202,12 @@ strong {
   vertical-align: top;
   min-width: 250px;
   position: relative;
+  
 }
 
 .animated-item {
   color: var(--primary-color);
-  font-size: var(--h3-font-size);
+  
 }
 
 .animated-item {
@@ -252,6 +257,16 @@ strong {
   }
 }
 
+     /* Media query to handle smaller screens */
+     @media (max-width: 576px) {
+      .animated-info {
+          min-width: 150px; /* Adjust this value as needed for smaller screens */
+      }
+
+      .animated-item {
+          font-size: 25px; /* Adjust the font size if needed */
+      }
+  }
 /*---------------------------------------
   HERO              
 -----------------------------------------*/
